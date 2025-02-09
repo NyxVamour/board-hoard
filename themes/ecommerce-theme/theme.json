@@ -13,24 +13,39 @@
 			"customDuotone": false,
 			"palette": [
 				{
-					"slug": "base",
-					"color": "#1e1e1e",
-					"name": "Base"
+					"slug": "black",
+					"color": "#000000",
+					"name": "Black"
 				},
 				{
-					"slug": "contrast",
-					"color": "#f0f0f0",
-					"name": "Contrast"
+					"slug": "white",
+					"color": "#ffffff",
+					"name": "White"
 				},
 				{
 					"slug": "primary",
-					"color": "#0073aa",
+					"color": "#AD3518",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#00a0d2",
+					"color": "#00A3FB",
 					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#56423C",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quarternary",
+					"color": "#281412",
+					"name": "Quarternary"
+				},
+				{
+					"slug": "accent",
+					"color": "#C59A43",
+					"name": "Accent"
 				}
 			]
 		},
@@ -47,17 +62,123 @@
 					"name": "System (Roboto, Segoe UI, Ubuntu)",
 					"slug": "system",
 					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
+				},
+				{
+					"name": "Kanit",
+					"slug": "kanit",
+					"fontFamily": "Kanit, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Kanit",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/kanit/Kanit-ExtraBold.ttf" ]
+						}
+					]
+				},
+				{
+					"name": "Outfit",
+					"slug": "outfit",
+					"fontFamily": "Outfit, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Outfit",
+							"fontWeight": "100 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/Outfit-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"name": "Cairo",
+					"slug": "cairo",
+					"fontFamily": "Cairo, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Cairo",
+							"fontWeight": "200 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/Cairo-VariableFont_slnt,wght.ttf" ]
+						}
+					]
+				},
+				{
+					"name": "Bangers",
+					"slug": "Bangers",
+					"fontFamily": "Bangers, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Bangers",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/Bangers-Regular.ttf" ]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{
+					"slug": "extra-small",
+					"size": "0.875rem",
+					"name": "Extra small",
+					"fluid": false
+				},
+				{
+					"slug": "small",
+					"size": "1rem",
+					"name": "Small",
+					"fluid": false
+				},
+				{
+					"slug": "medium",
+					"size": "1.25rem",
+					"name": "Medium",
+					"fluid": {
+						"min": "1.25rem",
+						"max": "1.5rem"
+					}
+				},
+				{
+					"slug": "large",
+					"size": "2rem",
+					"name": "Large",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "2rem"
+					}
+				},
+				{
+					"slug": "x-large",
+					"size": "2.75rem",
+					"name": "XL",
+					"fluid": {
+						"min": "2rem",
+						"max": "2.75rem"
+					}
+				},
+				{
+					"slug": "xx-large",
+					"size": "4rem",
+					"name": "XXL",
+					"fluid": {
+						"min": "3rem",
+						"max": "3.75rem"
+					}
 				}
 			]
 		}
 	},
 	"styles": {
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--system)"
+			"fontFamily": "var(--wp--preset--font-family--cairo)"
 		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",
-			"text": "var(--wp--preset--color--contrast)"
+			"text": "var(--wp--preset--color--quarternary)"
 		}
 	}
 }
