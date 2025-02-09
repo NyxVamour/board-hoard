@@ -33,19 +33,24 @@
 					"name": "Secondary"
 				},
 				{
+					"slug": "secondary-accent",
+					"color": "#037FC3",
+					"name": "Secondary Accent"
+				},
+				{
 					"slug": "tertiary",
 					"color": "#56423C",
 					"name": "Tertiary"
 				},
 				{
-					"slug": "quarternary",
+					"slug": "tertiary-accent",
 					"color": "#281412",
-					"name": "Quarternary"
+					"name": "Tertiary Accent"
 				},
 				{
-					"slug": "accent",
+					"slug": "quarternary",
 					"color": "#C59A43",
-					"name": "Accent"
+					"name": "Quarternary"
 				}
 			]
 		},
@@ -178,7 +183,36 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",
-			"text": "var(--wp--preset--color--quarternary)"
+			"text": "var(--wp--preset--color--tertiary-accent)"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--secondary)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				"border": {
+					"radius": "0px"
+				},
+				"spacing": {
+					"padding": {
+						"top": "0px",
+						"right": "1rem",
+						"bottom": "0px",
+						"left": "1rem"
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cairo)",
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontWeight": "800"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary-accent)"
+					}
+				}
+			}
 		}
 	}
 }
