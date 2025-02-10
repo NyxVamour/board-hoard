@@ -24,6 +24,40 @@ a{
     text-decoration: none;
 }
 
+fieldset{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+input[type="text"], input[type="email"], textarea{
+    font-family: inherit;
+    font-size: 1rem;
+    /* padding: 0.2rem; */
+    margin: 8px 0 16px 0;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    width: 90%;
+}
+
+input[type="submit"]{
+    font-family: inherit;
+    background-color: #00A3FB;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: white;
+    border: 0;
+    padding: 0 1rem;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #037FC3;
+}
+
 .header-page{
     width: fit-content;
     border-bottom: 6px solid #00A3FB;
