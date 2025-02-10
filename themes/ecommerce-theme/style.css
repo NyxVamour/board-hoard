@@ -96,3 +96,17 @@ input[type="submit"]:hover{
     margin-top: 8px;
     margin-bottom: 16px;
 }
+
+.footer-title{
+    font-weight: 800;
+}
+
+.footer-ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+.footer-nav{
+    gap: 0;
+}
