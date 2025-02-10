@@ -240,6 +240,12 @@
 					"fontFamily": "var(--wp--preset--font-family--cairo)",
 					"fontSize": "var(--wp--preset--font-size--xs-small)"
 				}
+			},
+			"core/post-content": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cairo)",
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
 			}
 		},
 		"elements": {
