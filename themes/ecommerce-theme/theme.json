@@ -189,6 +189,14 @@
 			"text": "var(--wp--preset--color--tertiary-accent)"
 		},
 		"blocks": {
+			"core/heading": {
+				"spacing": {
+					"margin": {
+						"top": "0px",
+						"bottom": "0px"
+					}
+				}
+			},
 			"core/post-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--outfit)"
