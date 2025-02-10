@@ -210,7 +210,6 @@
 					"fontFamily": "var(--wp--preset--font-family--cairo)",
 					"fontSize": "var(--wp--preset--font-size--xx-small)",
 					"fontWeight": "600"
-<<<<<<< HEAD
 				},
 				"dimensions": {
 					"marginTop": "0px"
@@ -221,8 +220,6 @@
 					"fontFamily": "var(--wp--preset--font-family--cairo)",
 					"fontSize": "var(--wp--preset--font-size--x-small)",
 					"fontWeight": "700"
-=======
->>>>>>> origin/single-posts
 				},
 				"color": {
 					"text": "var(--wp--preset--color--primary)"
