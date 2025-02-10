@@ -255,14 +255,5 @@
 				}
 			}
 		}
-	},
-	"customTemplates": [
-		{
-			"name": "single-posts",
-			"title": "Single Posts",
-			"postTypes": [
-				"post"
-			]
-		}
-	]
+	}
 }
