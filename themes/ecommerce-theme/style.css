@@ -29,6 +29,30 @@ a{
     border-bottom: 6px solid #00A3FB;
 }
 
+.article-author{
+    font-size: 1.25rem;
+}
+
+.link-primary{
+    width: fit-content;
+}
+
+.link-primary:hover{
+    color: #D6674C;
+}
+
+.link-secondary-accent{
+    width: fit-content;
+}
+
+.link-secondary-accent:hover{
+    color: #705c5a;
+}
+
+.article-date{
+    font-size: 1.25rem;
+}
+
 .article-card-category{
     margin-top: 16px;
     margin-bottom: 4px;
