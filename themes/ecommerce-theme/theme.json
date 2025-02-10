@@ -122,52 +122,46 @@
 			],
 			"fontSizes": [
 				{
-					"slug": "extra-small",
+					"slug": "xx-small",
 					"size": "0.875rem",
-					"name": "Extra small",
+					"name": "XX small",
+					"fluid": false
+				},
+				{
+					"slug": "xs-small",
+					"size": "1rem",
+					"name": "XS Small",
 					"fluid": false
 				},
 				{
 					"slug": "small",
-					"size": "1rem",
+					"size": "1.25rem",
 					"name": "Small",
 					"fluid": false
 				},
 				{
 					"slug": "medium",
-					"size": "1.25rem",
+					"size": "1.5rem",
 					"name": "Medium",
-					"fluid": {
-						"min": "1.25rem",
-						"max": "1.5rem"
-					}
+					"fluid": false
 				},
 				{
 					"slug": "large",
 					"size": "2rem",
 					"name": "Large",
-					"fluid": {
-						"min": "1.5rem",
-						"max": "2rem"
-					}
+					"fluid": false
 				},
 				{
 					"slug": "x-large",
 					"size": "2.75rem",
 					"name": "XL",
-					"fluid": {
-						"min": "2rem",
-						"max": "2.75rem"
-					}
+					"fluid": false
 				},
 				{
 					"slug": "xx-large",
 					"size": "3.5rem",
 					"name": "XXL",
-					"fluid": {
-						"min": "3rem",
-						"max": "3.75rem"
-					}
+					"fluid": false
 				}
 			]
 		},
@@ -197,15 +191,13 @@
 		"blocks": {
 			"core/post-title": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--outfit)",
-					"fontSize": "var(--wp--preset--font-size--x-large)",
-					"fontWeight": "800"
+					"fontFamily": "var(--wp--preset--font-family--outfit)"
 				}
 			},
 			"core/post-date": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--cairo)",
-					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontSize": "var(--wp--preset--font-size--xs-small)",
 					"fontWeight": "500"
 				},
 				"color": {
@@ -214,17 +206,32 @@
 				"dimensions": {
 					"marginTop": "0px"
 				}
+			},
+			"core/post-excerpt": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cairo)",
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
 			}
 		},
 		"elements": {
 			"h1": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)"
+					"fontSize": "var(--wp--preset--font-size--xx-large)",
+					"fontWeight": "800",
+					"lineHeight": "1.2"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)"
+					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"lineHeight": "1.2"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"lineHeight": "1.2"
 				}
 			},
 			"button": {
