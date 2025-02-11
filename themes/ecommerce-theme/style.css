@@ -125,6 +125,20 @@ input[type="submit"]:hover{
     gap: 0;
 }
 
+.contact-columns > :nth-child(2){
+    margin-top: var(--wp--preset--spacing--m);
+}
+
+.contact-map{
+    height: 500px;
+}
+
+
+
+.contact-detail{
+    margin-top: var(--wp--preset--spacing--xxs);
+}
+
 
 /* X Small devices (portrait phones)*/
 @media (max-width: 576px) {
