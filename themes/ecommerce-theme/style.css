@@ -96,3 +96,46 @@ input[type="submit"]:hover{
     margin-top: 8px;
     margin-bottom: 16px;
 }
+
+.footer-title{
+    font-weight: 800;
+}
+
+.footer-ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+.footer-nav{
+    gap: 0;
+}
+
+
+/* X Small devices (portrait phones)*/
+@media (max-width: 576px) {
+    .header-page{
+        /* font-size: var(--wp--preset--font-size--x-large); */
+    }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 992px) {
+    .header-page{
+        /* margin-bottom: clamp(60px, 5vw, 80px); */
+    }
+
+    .article-columns-blog-home-main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .article-card-category{
+        /* font-size: var(--wp--preset--font-size--x-small); */
+    }
+
+    .blog-home-cards-template{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
