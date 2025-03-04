@@ -32,7 +32,14 @@ fieldset{
     box-sizing: border-box;
 }
 
+.flex-column > li{
+    display: flex;
+    flex-direction: column;
+}
 
+.margin-top__auto{
+    margin-top: auto;
+}
 
 input[type="text"], input[type="email"], textarea{
     font-family: inherit;
@@ -191,6 +198,9 @@ input[type="submit"]:hover{
 
 /* Medium devices (tablets) */
 @media (max-width: 992px) {
+    
+
+
     .header-page{
         /* margin-bottom: clamp(60px, 5vw, 80px); */
     }
@@ -210,6 +220,11 @@ input[type="submit"]:hover{
 
     .blog-home-cards-template{
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    
+    .catalog__list{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
 }
 
