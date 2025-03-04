@@ -147,6 +147,32 @@ input[type="submit"]:hover{
     margin-top: var(--wp--preset--spacing--xxs);
 }
 
+.woocommerce-MyAccount-navigation{
+    display: none;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content{
+    width: 80%;
+
+}
+
+.account-navigation__item{
+    width: 100%;
+}
+
+.account-navigation__item > a {
+    width: 100%;
+    background-color: #037FC3;
+    text-align: center;
+    padding: 12px 20px;
+    border: 4px solid black;
+    -webkit-text-stroke: 4px black;
+    paint-order: stroke fill;
+}
+
+.account-navigation__item > a:hover{
+    background-color: var(--wp--preset--color--secondary);
+}
 
 
 /***** WOOCOMMERCE *****/
