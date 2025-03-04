@@ -15,3 +15,200 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Generated on fullsiteediting.com. No code version.
 */
+<<<<<<< Updated upstream
+=======
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+fieldset{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+input[type="text"], input[type="email"], textarea{
+    font-family: inherit;
+    font-size: 1rem;
+    /* padding: 0.2rem; */
+    margin: 8px 0 16px 0;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    width: 90%;
+}
+
+input[type="submit"]{
+    font-family: inherit;
+    background-color: #00A3FB;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: white;
+    border: 0;
+    padding: 0 1rem;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #037FC3;
+}
+
+.group-responsive{
+    max-width: var(--wp--style--global--content-size);
+    padding: 0 12%;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+.header-page{
+    width: fit-content;
+    border-bottom: 6px solid #00A3FB;
+    margin-bottom: var(--wp--preset--spacing--l);
+    /* margin-bottom: 6vw; */
+    /* margin-bottom: clamp(40px, 6vw, 80px); */
+}
+
+.article-card-large-title{
+    margin-top: var(--wp--preset--spacing--xxs)
+}
+
+.article-author{
+    font-size: var(--wp--preset--font-size--xx-small);
+}
+
+.link-primary{
+    width: fit-content;
+}
+
+.link-primary:hover{
+    color: #D6674C;
+}
+
+.link-secondary-accent{
+    width: fit-content;
+}
+
+.link-secondary-accent:hover{
+    color: #705c5a;
+}
+
+.article-date{
+    font-size: var(--wp--preset--font-size--xxs);
+}
+
+.article-card-category{
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.article-card-meta-info{
+    margin-top: var(--wp--preset--spacing--xxs);
+}
+
+.footer-title{
+    font-weight: 800;
+}
+
+.footer-ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+.footer-nav{
+    gap: 0;
+}
+
+.contact-columns > :nth-child(2){
+    margin-top: var(--wp--preset--spacing--m);
+}
+
+.contact-map{
+    height: 500px;
+}
+
+
+
+.contact-detail{
+    margin-top: var(--wp--preset--spacing--xxs);
+}
+
+
+/***** WOOCOMMERCE *****/
+.product-single__product-summary > p{
+    font-size: var(--wp--preset--font-size--xs-small) !important;
+}
+
+
+/** review **/
+
+
+
+.woocommerce-Reviews-title{
+    font-size: var(--wp--preset--spacing--m);
+    margin-bottom: var(--wp--preset--spacing--m);
+    font-family: var(--wp--preset--font-family--outfit);
+}
+
+.woocommerce-noreviews{
+    font-size: var(--wp--preset--font-size--xs-small);
+}
+
+.comment-reply-title{
+    font-size: var(--wp--preset--font-size--xx-small) !important;
+    /* margin-bottom: var(--wp--preset--spacing--m); */
+}
+
+.comment-form-comment > .comment{
+    font-size: var(--wp--preset--font-size--xx-small);
+}
+
+/*** product grid ***/
+
+.product-grid__button{
+    align-self: flex-end;
+}
+
+
+/* X Small devices (portrait phones)*/
+@media (max-width: 576px) {
+    .header-page{
+        /* font-size: var(--wp--preset--font-size--x-large); */
+    }
+    .single-product__review{
+        padding: 0 !important;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 992px) {
+    .header-page{
+        /* margin-bottom: clamp(60px, 5vw, 80px); */
+    }
+    .single-product__review{
+        padding: 0 !important;
+    }
+
+    .article-columns-blog-home-main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .article-card-category{
+        /* font-size: var(--wp--preset--font-size--x-small); */
+    }
+
+    .blog-home-cards-template{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+>>>>>>> Stashed changes
