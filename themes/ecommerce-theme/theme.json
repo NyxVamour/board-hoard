@@ -60,7 +60,7 @@
 			]
 		},
 		"layout": {
-			"contentSize": "1100px",
+			"contentSize": "1200px",
 			"wideSize": "1800px"
 		},
 		"spacing": {
@@ -208,7 +208,7 @@
 				},
 				{
 					"slug": "x-large",
-					"size": "2.75rem",
+					"size": "2.5rem",
 					"name": "XL",
 					"fluid": {
 						"min": "2rem",
