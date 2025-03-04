@@ -16,6 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Generated on fullsiteediting.com. No code version.
 */
 
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -140,10 +141,51 @@ input[type="submit"]:hover{
 }
 
 
+
+/***** WOOCOMMERCE *****/
+.product-single__product-summary > p{
+    font-size: var(--wp--preset--font-size--xs-small) !important;
+}
+
+
+/** review **/
+
+
+
+.woocommerce-Reviews-title{
+    font-size: var(--wp--preset--spacing--m);
+    margin-bottom: var(--wp--preset--spacing--m);
+    font-family: var(--wp--preset--font-family--outfit);
+}
+
+.woocommerce-noreviews{
+    font-size: var(--wp--preset--font-size--xs-small);
+}
+
+.comment-reply-title{
+    font-size: var(--wp--preset--font-size--xx-small) !important;
+    /* margin-bottom: var(--wp--preset--spacing--m); */
+}
+
+.comment-form-comment > .comment{
+    font-size: var(--wp--preset--font-size--xx-small);
+}
+
+/*** product grid ***/
+
+.product-grid__button{
+    align-self: flex-end;
+}
+
+
 /* X Small devices (portrait phones)*/
 @media (max-width: 576px) {
     .header-page{
         /* font-size: var(--wp--preset--font-size--x-large); */
+    }
+
+      .single-product__review{
+        padding: 0 !important;
     }
 }
 
@@ -153,6 +195,10 @@ input[type="submit"]:hover{
         /* margin-bottom: clamp(60px, 5vw, 80px); */
     }
 
+    .single-product__review{
+        padding: 0 !important;
+    }
+  
     .article-columns-blog-home-main{
         display: flex;
         flex-direction: column-reverse;
