@@ -1,5 +1,5 @@
 /*
-Theme Name: No Code Theme
+Theme Name: Board Hoard Theme
 Author: Charlize San Gabriel
 Author URI: 
 Theme URI: 
@@ -15,8 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Generated on fullsiteediting.com. No code version.
 */
-<<<<<<< Updated upstream
-=======
+
 
 *{
     margin: 0;
@@ -142,6 +141,7 @@ input[type="submit"]:hover{
 }
 
 
+
 /***** WOOCOMMERCE *****/
 .product-single__product-summary > p{
     font-size: var(--wp--preset--font-size--xs-small) !important;
@@ -183,7 +183,8 @@ input[type="submit"]:hover{
     .header-page{
         /* font-size: var(--wp--preset--font-size--x-large); */
     }
-    .single-product__review{
+
+      .single-product__review{
         padding: 0 !important;
     }
 }
@@ -193,10 +194,11 @@ input[type="submit"]:hover{
     .header-page{
         /* margin-bottom: clamp(60px, 5vw, 80px); */
     }
+
     .single-product__review{
         padding: 0 !important;
     }
-
+  
     .article-columns-blog-home-main{
         display: flex;
         flex-direction: column-reverse;
@@ -211,4 +213,3 @@ input[type="submit"]:hover{
     }
 }
 
->>>>>>> Stashed changes
