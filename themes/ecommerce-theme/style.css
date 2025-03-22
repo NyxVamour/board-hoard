@@ -142,113 +142,19 @@ input[type="submit"]:hover{
     margin-top: var(--wp--preset--spacing--xxs)
 }
 
-.article-card-category{
-    margin-top: 16px;
-    margin-bottom: 4px;
-}
-
-.article-card-meta-info{
-    margin-top: var(--wp--preset--spacing--xxs);
-}
-
-.footer-title{
-    font-weight: 800;
-}
-
-.footer-ul{
-    list-style-type: none;
-    padding: 0;
-    margin-top: 24px;
-}
-
-.footer-nav{
-    gap: 0;
-}
-
-.contact-columns > :nth-child(2){
-    margin-top: var(--wp--preset--spacing--m);
-}
-
-.contact-map{
-    height: 500px;
-}
-
-
-
-.contact-detail{
-    margin-top: var(--wp--preset--spacing--xxs);
-}
-
-.woocommerce-MyAccount-navigation{
-    display: none;
-}
-
-.woocommerce-account .woocommerce-MyAccount-content{
-    width: 80%;
-
-}
-
-.account-navigation__item{
-    width: 100%;
-}
-
-.account-navigation__item > a {
-    width: 100%;
-    background-color: #037FC3;
-    text-align: center;
-    padding: 12px 20px;
-    border: 4px solid black;
-    -webkit-text-stroke: 4px black;
-    paint-order: stroke fill;
-}
-
-.account-navigation__item > a:hover{
-    background-color: var(--wp--preset--color--secondary);
-}
-
-.wc-block-components-product-metadata{
-    display: none;
-}
-
-
-.woocommerce-MyAccount-content a{
-    color: var(--wp--preset--color--primary)
-}
-
-/* .woocommerce-MyAccount-content a:hover{
-    color: var(--wp--preset--color--primary--hover)
-} */
-
-.woocommerce-Addresses{
-    margin-top: var(--wp--preset--spacing--m);
-}
-
-.woocommerce-Addresses .edit{
-    font-size: var(--wp--preset--font-size--xx-small);
-}
-
-.woocommerce-Address-title > h2{
-    font-size: var(--wp--preset--font-size--small);
-}
-
-/***** WOOCOMMERCE *****/
-.product-single__product-summary > p{
-    font-size: var(--wp--preset--font-size--xs-small) !important;
-}
-
-
-/****** SINGLE POST ********/
-.single-post__main-category{
+/************* BLOG POSTS *************/
+/** For the category block (it's a div and not actually the a tag) **/
+.post-category{
     width: fit-content;
 }
 
-.single-post__main-category > a{
+.post-category > a{
     display: inline-block;
     width: 100%;
     padding: 0 var(--wp--preset--spacing--xxs);
 }
 
-.single-post__main-category > a:hover{
+.post-category > a:hover{
     background-color: var(--wp--preset--color--primary-highlight);
 }
 
