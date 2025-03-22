@@ -39,6 +39,22 @@ a{
     margin-bottom: 16px;
 }
 
+
+/****** SINGLE POST ********/
+.single-post__main-category{
+    width: fit-content;
+}
+
+.single-post__main-category > a{
+    display: inline-block;
+    width: 100%;
+    padding: 0 var(--wp--preset--spacing--xxs);
+}
+
+.single-post__main-category > a:hover{
+    background-color: var(--wp--preset--color--primary-highlight);
+}
+
 .footer-title{
     font-weight: 800;
 }
