@@ -1,5 +1,5 @@
 /*
-Theme Name: No Code Theme
+Theme Name: Board Hoard Theme
 Author: Charlize San Gabriel
 Author URI: 
 Theme URI: 
@@ -74,7 +74,6 @@ input[type="submit"]:hover{
     box-sizing: content-box;
 }
 
-
 /**** home ***/
 .home__categories-title{
     width: fit-content;
@@ -143,27 +142,14 @@ input[type="submit"]:hover{
     margin-top: var(--wp--preset--spacing--xxs)
 }
 
-/**** SINGLE POST STUFF **/
-
 .article-author{
     font-size: var(--wp--preset--font-size--xx-small);
 }
 
-/* .link-primary{
-    width: fit-content;
+.article-date{
+    font-size: var(--wp--preset--font-size--xxs);
 }
 
-.link-primary:hover{
-    color: #D6674C;
-} */
-
-/* .link-secondary-accent{
-    width: fit-content;
-}
-
-.link-secondary-accent:hover{
-    color: #705c5a;
-} */
 
 .article-card-category{
     margin-top: 16px;
@@ -232,6 +218,7 @@ input[type="submit"]:hover{
 .wc-block-components-product-metadata{
     display: none;
 }
+
 
 .woocommerce-MyAccount-content a{
     color: var(--wp--preset--color--primary)
