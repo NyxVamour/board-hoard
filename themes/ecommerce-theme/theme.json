@@ -33,6 +33,11 @@
 					"name": "Primary"
 				},
 				{
+					"slug": "primary-highlight",
+					"color": "#D6674C",
+					"name": "Primary Highlight"
+				},
+				{
 					"slug": "secondary",
 					"color": "#00A3FB",
 					"name": "Secondary"
@@ -53,9 +58,19 @@
 					"name": "Tertiary Accent"
 				},
 				{
+					"slug": "tertiary-highlight",
+					"color": "#705c5a",
+					"name": "Tertiary Highlight"
+				},
+				{
 					"slug": "quarternary",
 					"color": "#C59A43",
 					"name": "Quarternary"
+				},
+				{
+					"slug": "quintenary",
+					"color": "#BB8947",	
+					"name": "Quintenary"
 				}
 			]
 		},
@@ -255,7 +270,8 @@
 			"core/paragraph": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--cairo)",
-					"fontSize": "var(--wp--preset--font-size--small)"
+          "fontSize": "var(--wp--preset--font-size--xs-small)"
+
 				}
 			},
 			"core/heading": {
