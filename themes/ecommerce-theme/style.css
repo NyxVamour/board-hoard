@@ -74,42 +74,6 @@ input[type="submit"]:hover{
     /* margin-bottom: clamp(40px, 6vw, 80px); */
 }
 
-.article-card-large-title{
-    margin-top: var(--wp--preset--spacing--xxs)
-}
-
-.article-author{
-    font-size: var(--wp--preset--font-size--xx-small);
-}
-
-.link-primary{
-    width: fit-content;
-}
-
-.link-primary:hover{
-    color: #D6674C;
-}
-
-.link-secondary-accent{
-    width: fit-content;
-}
-
-.link-secondary-accent:hover{
-    color: #705c5a;
-}
-
-.article-date{
-    font-size: var(--wp--preset--font-size--xxs);
-}
-
-.article-card-category{
-    margin-top: 16px;
-    margin-bottom: 4px;
-}
-
-.article-card-meta-info{
-    margin-top: var(--wp--preset--spacing--xxs);
-}
 
 .footer-title{
     font-weight: 800;
