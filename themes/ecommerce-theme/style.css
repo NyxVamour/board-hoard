@@ -142,21 +142,6 @@ input[type="submit"]:hover{
     margin-top: var(--wp--preset--spacing--xxs)
 }
 
-.article-author{
-    font-size: var(--wp--preset--font-size--xx-small);
-}
-
-/**** SINGLE POST STUFF **/
-
-.article-author{
-    font-size: var(--wp--preset--font-size--xx-small);
-}
-
-.article-date{
-    font-size: var(--wp--preset--font-size--xxs);
-}
-
-
 .article-card-category{
     margin-top: 16px;
     margin-bottom: 4px;
