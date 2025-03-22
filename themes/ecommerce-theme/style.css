@@ -15,3 +15,326 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Generated on fullsiteediting.com. No code version.
 */
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+fieldset{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-column > li{
+    display: flex;
+    flex-direction: column;
+}
+
+.margin-top__auto{
+    margin-top: auto;
+}
+
+input[type="text"], input[type="email"], textarea{
+    font-family: inherit;
+    font-size: 1rem;
+    /* padding: 0.2rem; */
+    margin: 8px 0 16px 0;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    width: 90%;
+}
+
+input[type="submit"]{
+    font-family: inherit;
+    background-color: #00A3FB;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: white;
+    border: 0;
+    padding: 0 1rem;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #037FC3;
+}
+
+.group-responsive{
+    max-width: var(--wp--style--global--content-size);
+    padding: 0 12%;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+
+/**** home ***/
+.home__categories-title{
+    width: fit-content;
+    border-color: #00A3FB;
+}
+
+.home-categories > ul{
+    list-style-type: none;
+    padding-left: 0;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.home-categories li{
+    margin: 0 !important;
+}
+
+
+.home-categories a{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.home-categories a .wc-block-product-categories-list-item__image{
+    margin: 0;
+    max-width: 100%;
+    border: 0;
+}
+
+.home-categories a .wc-block-product-categories-list-item__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 3/2;
+}
+
+.home-categories a .wc-block-product-categories-list-item__name{
+    text-align: center;
+    font-family: var(--wp--preset--font-family--outfit);
+    position: relative;
+    background-color: var(--wp--preset--color--tertiary-accent);
+    bottom: 0;
+    border: 4px solid var(--wp--preset--color--quintenary);
+    padding: 8px 0;
+}
+
+.home-blog__excerpt > p{
+    font-size: var(--wp--preset--font-size--xx-small) !important;
+}
+
+
+
+.header-page{
+    width: fit-content;
+    border-bottom: 6px solid #00A3FB;
+    margin-bottom: var(--wp--preset--spacing--l);
+    /* margin-bottom: 6vw; */
+    /* margin-bottom: clamp(40px, 6vw, 80px); */
+}
+
+.article-card-large-title{
+    margin-top: var(--wp--preset--spacing--xxs)
+}
+
+/**** SINGLE POST STUFF **/
+
+.article-author{
+    font-size: var(--wp--preset--font-size--xx-small);
+}
+
+/* .link-primary{
+    width: fit-content;
+}
+
+.link-primary:hover{
+    color: #D6674C;
+} */
+
+/* .link-secondary-accent{
+    width: fit-content;
+}
+
+.link-secondary-accent:hover{
+    color: #705c5a;
+} */
+
+.article-card-category{
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.article-card-meta-info{
+    margin-top: var(--wp--preset--spacing--xxs);
+}
+
+.footer-title{
+    font-weight: 800;
+}
+
+.footer-ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+.footer-nav{
+    gap: 0;
+}
+
+.contact-columns > :nth-child(2){
+    margin-top: var(--wp--preset--spacing--m);
+}
+
+.contact-map{
+    height: 500px;
+}
+
+
+
+.contact-detail{
+    margin-top: var(--wp--preset--spacing--xxs);
+}
+
+.woocommerce-MyAccount-navigation{
+    display: none;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content{
+    width: 80%;
+
+}
+
+.account-navigation__item{
+    width: 100%;
+}
+
+.account-navigation__item > a {
+    width: 100%;
+    background-color: #037FC3;
+    text-align: center;
+    padding: 12px 20px;
+    border: 4px solid black;
+    -webkit-text-stroke: 4px black;
+    paint-order: stroke fill;
+}
+
+.account-navigation__item > a:hover{
+    background-color: var(--wp--preset--color--secondary);
+}
+
+.wc-block-components-product-metadata{
+    display: none;
+}
+
+.woocommerce-MyAccount-content a{
+    color: var(--wp--preset--color--primary)
+}
+
+/* .woocommerce-MyAccount-content a:hover{
+    color: var(--wp--preset--color--primary--hover)
+} */
+
+.woocommerce-Addresses{
+    margin-top: var(--wp--preset--spacing--m);
+}
+
+.woocommerce-Addresses .edit{
+    font-size: var(--wp--preset--font-size--xx-small);
+}
+
+.woocommerce-Address-title > h2{
+    font-size: var(--wp--preset--font-size--small);
+}
+
+/***** WOOCOMMERCE *****/
+.product-single__product-summary > p{
+    font-size: var(--wp--preset--font-size--xs-small) !important;
+}
+
+
+/** review **/
+
+
+
+.woocommerce-Reviews-title{
+    font-size: var(--wp--preset--spacing--m);
+    margin-bottom: var(--wp--preset--spacing--m);
+    font-family: var(--wp--preset--font-family--outfit);
+}
+
+.woocommerce-noreviews{
+    font-size: var(--wp--preset--font-size--xs-small);
+}
+
+.comment-reply-title{
+    font-size: var(--wp--preset--font-size--xx-small) !important;
+    /* margin-bottom: var(--wp--preset--spacing--m); */
+}
+
+.comment-form-comment > .comment{
+    font-size: var(--wp--preset--font-size--xx-small);
+}
+
+/*** product grid ***/
+
+.product-grid__button{
+    align-self: flex-end;
+}
+
+
+/** page checkout **/
+
+.wp-block-woocommerce-checkout-order-summary-block .wc-block-components-formatted-money-amount{
+    color: var(--wp--preset--color--primary);
+}
+
+/* X Small devices (portrait phones)*/
+@media (max-width: 576px) {
+    .header-page{
+        /* font-size: var(--wp--preset--font-size--x-large); */
+    }
+
+      .single-product__review{
+        padding: 0 !important;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 992px) {
+    
+
+
+    .header-page{
+        /* margin-bottom: clamp(60px, 5vw, 80px); */
+    }
+
+    .single-product__review{
+        padding: 0 !important;
+    }
+  
+    .article-columns-blog-home-main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .article-card-category{
+        /* font-size: var(--wp--preset--font-size--x-small); */
+    }
+
+    .blog-home-cards-template{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    
+    .catalog__list{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+}
+
