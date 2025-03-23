@@ -57,7 +57,7 @@ function board_hoard_events_pt() {
         'show_in_rest'          => true,
         'menu_icon'             => 'dashicons-calendar',
         'capability_type'       => 'post',
-        'supports'              => array( 'title', 'editor', 'revisions' ),
+        'supports'              => array( 'title', 'editor', 'revisions', 'thumbnail' ),
         'has_archive'           => true,
         'rewrite'               => array( 'slug' => 'event' ),
     );
