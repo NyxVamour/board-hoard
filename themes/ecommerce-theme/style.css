@@ -150,47 +150,38 @@ input[type="submit"]:hover{
     background-color: var(--wp--preset--color--primary-highlight);
 }
 
-.footer-title{
-    font-weight: 800;
-}
-
-.footer-ul{
-    list-style-type: none;
-    padding: 0;
-    margin-top: 24px;
-}
-
-.footer-nav{
-    gap: 0;
-}
+/******* CONTACT PAGE ******/
 
 .contact-columns > :nth-child(2){
     margin-top: var(--wp--preset--spacing--m);
 }
 
+/** The map **/
 .contact-map{
     height: 500px;
 }
-
-
 
 .contact-detail{
     margin-top: var(--wp--preset--spacing--xxs);
 }
 
+/*************** MY ACCOUNT **************/
+/** To hide some of the default woocommerce account code **/
 .woocommerce-MyAccount-navigation{
     display: none;
 }
 
+/** adjusting the rest of the woocommerce account code**/
 .woocommerce-account .woocommerce-MyAccount-content{
     width: 80%;
-
 }
 
+/** each list item in the navigation  **/
 .account-navigation__item{
     width: 100%;
 }
 
+/** each list item's anchor tag in the navigation  **/
 .account-navigation__item > a {
     width: 100%;
     background-color: #037FC3;
@@ -201,17 +192,21 @@ input[type="submit"]:hover{
     paint-order: stroke fill;
 }
 
+/** each list item's anchor tag's hover  **/
 .account-navigation__item > a:hover{
     background-color: var(--wp--preset--color--secondary);
+}
+
+/** coloring the a tag **/
+.woocommerce-MyAccount-content a{
+    color: var(--wp--preset--color--primary)
 }
 
 .wc-block-components-product-metadata{
     display: none;
 }
 
-.woocommerce-MyAccount-content a{
-    color: var(--wp--preset--color--primary)
-}
+
 
 .woocommerce-MyAccount-content a{
     color: var(--wp--preset--color--primary)
@@ -221,6 +216,7 @@ input[type="submit"]:hover{
     color: var(--wp--preset--color--primary--hover)
 } */
 
+/** For the woocommerce account info **/
 .woocommerce-Addresses{
     margin-top: var(--wp--preset--spacing--m);
 }
@@ -233,12 +229,14 @@ input[type="submit"]:hover{
     font-size: var(--wp--preset--font-size--small);
 }
 
-/************ WOOCOMMERCE *****/
+/********** WOOCOMMERCE product summary ***********/
+
 .product-single__product-summary > p{
     font-size: var(--wp--preset--font-size--xs-small) !important;
 }
 
-/**** Reviews **/
+/** woocommerce review **/
+
 .woocommerce-Reviews-title{
     font-size: var(--wp--preset--spacing--m);
     margin-bottom: var(--wp--preset--spacing--m);
@@ -272,6 +270,22 @@ input[type="submit"]:hover{
 
 .wp-block-woocommerce-checkout-order-summary-block .wc-block-components-formatted-money-amount{
     color: var(--wp--preset--color--primary);
+}
+
+
+/********* FOOTER ********/
+.footer-title{
+    font-weight: 800;
+}
+
+.footer-ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+.footer-nav{
+    gap: 0;
 }
 
 /* X Small devices (portrait phones)*/
