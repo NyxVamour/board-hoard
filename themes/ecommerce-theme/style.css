@@ -16,6 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Generated on fullsiteediting.com. No code version.
 */
 
+/****** Global Styles *******/
 
 *{
     margin: 0;
@@ -324,4 +325,3 @@ input[type="submit"]:hover{
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
 }
-
