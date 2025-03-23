@@ -1,5 +1,5 @@
 /*
-Theme Name: No Code Theme
+Theme Name: Board Hoard Theme
 Author: Charlize San Gabriel
 Author URI: 
 Theme URI: 
@@ -16,6 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Generated on fullsiteediting.com. No code version.
 */
 
+/****** Global Styles *******/
 
 *{
     margin: 0;
@@ -73,7 +74,6 @@ input[type="submit"]:hover{
     margin: 0 auto;
     box-sizing: content-box;
 }
-
 
 /*********** Home ************/
 
@@ -134,35 +134,20 @@ input[type="submit"]:hover{
     /* margin-bottom: clamp(40px, 6vw, 80px);
 } */
 
-/**** SINGLE POST STUFF **/
-
-.article-author{
-    font-size: var(--wp--preset--font-size--xx-small);
-}
-
-/* .link-primary{
+/************* BLOG POSTS *************/
+/** For the category block (it's a div and not actually the a tag) **/
+.post-category{
     width: fit-content;
 }
 
-.link-primary:hover{
-    color: #D6674C;
-} */
-
-/* .link-secondary-accent{
-    width: fit-content;
+.post-category > a{
+    display: inline-block;
+    width: 100%;
+    padding: 0 var(--wp--preset--spacing--xxs);
 }
 
-.link-secondary-accent:hover{
-    color: #705c5a;
-} */
-
-.article-card-category{
-    margin-top: 16px;
-    margin-bottom: 4px;
-}
-
-.article-card-meta-info{
-    margin-top: var(--wp--preset--spacing--xxs);
+.post-category > a:hover{
+    background-color: var(--wp--preset--color--primary-highlight);
 }
 
 /******* CONTACT PAGE ******/
@@ -223,6 +208,10 @@ input[type="submit"]:hover{
 
 
 
+.woocommerce-MyAccount-content a{
+    color: var(--wp--preset--color--primary)
+}
+
 /* .woocommerce-MyAccount-content a:hover{
     color: var(--wp--preset--color--primary--hover)
 } */
@@ -241,27 +230,31 @@ input[type="submit"]:hover{
 }
 
 /********** WOOCOMMERCE product summary ***********/
+
 .product-single__product-summary > p{
     font-size: var(--wp--preset--font-size--xs-small) !important;
 }
 
-
 /** woocommerce review **/
+
 .woocommerce-Reviews-title{
     font-size: var(--wp--preset--spacing--m);
     margin-bottom: var(--wp--preset--spacing--m);
     font-family: var(--wp--preset--font-family--outfit);
 }
 
+/** text for if there are no reviews **/
 .woocommerce-noreviews{
     font-size: var(--wp--preset--font-size--xs-small);
 }
 
+/** for the title for the reply */
 .comment-reply-title{
     font-size: var(--wp--preset--font-size--xx-small) !important;
     /* margin-bottom: var(--wp--preset--spacing--m); */
 }
 
+/** for the comments text */
 .comment-form-comment > .comment{
     font-size: var(--wp--preset--font-size--xx-small);
 }
@@ -356,4 +349,3 @@ input[type="submit"]:hover{
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
 }
-
