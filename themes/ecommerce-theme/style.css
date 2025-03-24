@@ -18,6 +18,7 @@ Generated on fullsiteediting.com. No code version.
 
 /****** Global Styles *******/
 
+/** mini resets **/
 *{
     margin: 0;
     box-sizing: border-box;
@@ -27,21 +28,25 @@ a{
     text-decoration: none;
 }
 
+/** Fieldset for the input groups **/
 fieldset{
     border: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/** utility class to target the list items under flex-column. just if you want things centered **/
 .flex-column > li{
     display: flex;
     flex-direction: column;
 }
 
+/** if you want a margin-top: auto **/
 .margin-top__auto{
     margin-top: auto;
 }
 
+/** for the input fields for the contact form **/
 input[type="text"], input[type="email"], textarea{
     font-family: inherit;
     font-size: 1rem;
@@ -52,6 +57,7 @@ input[type="text"], input[type="email"], textarea{
     width: 90%;
 }
 
+/** for the submit **/
 input[type="submit"]{
     font-family: inherit;
     background-color: #00A3FB;
@@ -64,10 +70,12 @@ input[type="submit"]{
     cursor: pointer;
 }
 
+/** for the submit hover **/
 input[type="submit"]:hover{
     background-color: #037FC3;
 }
 
+/*** put this for a group so it can have paddings on the sides ***/
 .group-responsive{
     max-width: var(--wp--style--global--content-size);
     padding: 0 12%;
