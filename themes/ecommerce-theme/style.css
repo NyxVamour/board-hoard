@@ -184,10 +184,6 @@ input[type="submit"]:hover{
     height: 500px;
 }
 
-.contact-detail{
-    margin-top: var(--wp--preset--spacing--xxs);
-}
-
 /*************** MY ACCOUNT **************/
 /** To hide some of the default woocommerce account code **/
 .woocommerce-MyAccount-navigation{
