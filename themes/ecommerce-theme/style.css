@@ -292,12 +292,10 @@ input[type="submit"]:hover{
     gap: 0;
 }
 
-/* X Small devices (portrait phones)*/
+/************* X Small devices (portrait phones)*******/
 @media (max-width: 576px) {
-    .header-page{
-        /* font-size: var(--wp--preset--font-size--x-large); */
-    }
 
+    /** For the categories on the home page **/
     .home-categories > ul{
         list-style-type: none;
         padding-left: 0;
@@ -308,15 +306,17 @@ input[type="submit"]:hover{
         gap: 16px;
     }
 
+    /*** for the review part for the product ***/
+
     .single-product__review{
         padding: 0 !important;
     }
 }
 
-/* Medium devices (tablets) */
+/************* Medium devices (tablets) ******************/
 @media (min-width: 577px) and (max-width: 992px) {
     
-
+    /** For the categories on the home page **/
     .home-categories > ul{
         list-style-type: none;
         padding-left: 0;
@@ -327,28 +327,24 @@ input[type="submit"]:hover{
         gap: 16px;
     }
 
-    .header-page{
-        /* margin-bottom: clamp(60px, 5vw, 80px); */
-    }
-
+    /*** for the review part for the product ***/
     .single-product__review{
         padding: 0 !important;
     }
-  
+
+    /*** for the main article on the blog home***/
     .article-columns-blog-home-main{
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .article-card-category{
-        /* font-size: var(--wp--preset--font-size--x-small); */
-    }
+        /*** for the # of columns on the cards of the blog home  ***/
 
     .blog-home-cards-template{
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    
+    /*** for the catalog  ***/
     .catalog__list{
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
